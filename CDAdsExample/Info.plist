@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CDAdsParams</key>
+	<dict>
+		<key>CD_BEACON_HOST</key>
+		<string>https://gw.pinable.jp</string>
+		<key>CD_BEACON_KEY</key>
+		<string>midnightrambler</string>
+		<key>CD_BEACON_SECTRET_KEY</key>
+		<string>drawlswiftbayonet</string>
+		<key>CDADS_BUNDLE_ID</key>
+		<string>284035177</string>
+		<key>CDADS_BUNDLE_ID_STRING</key>
+		<string>com.pandora.ios</string>
+		<key>CDADS_CAT</key>
+		<string>IAB1-6</string>
+		<key>CDADS_DEBUG_URL</key>
+		<string>https://nep.chalkdigital.com/xp</string>
+		<key>CDADS_PARTNER_ID</key>
+		<string>chalkapps</string>
+		<key>SERVER_PATH</key>
+		<string>/cmsdk</string>
+		<key>SERVER_URL</key>
+		<string>http://35.212.108.207:8081</string>
+		<key>CDADS_GOOGLE_KEY</key>
+		<string>Enter_your_google_key</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Always and When In Use Location Usage Description Here</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Always Location Usage Description Here</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>When In Use Location Usage Description Here</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

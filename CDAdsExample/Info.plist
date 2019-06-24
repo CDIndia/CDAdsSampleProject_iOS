@@ -23,9 +23,7 @@
 		<key>SERVER_PATH</key>
 		<string>/cmsdk</string>
 		<key>SERVER_URL</key>
-		<string>http://35.212.108.207:8081</string>
-		<key>CDADS_GOOGLE_KEY</key>
-		<string>Enter_your_google_key</string>
+		<string>https://e.cmcd1.com</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>

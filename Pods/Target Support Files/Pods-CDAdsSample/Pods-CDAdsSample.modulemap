@@ -1,0 +1,6 @@
+framework module Pods_CDAdsSample {
+  umbrella header "Pods-CDAdsSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

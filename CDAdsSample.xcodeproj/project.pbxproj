@@ -3,19 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0B4FC08AFF2072BB015A8F0 /* libPods-CDAdsSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53501DC0A59EC9D042E6CD91 /* libPods-CDAdsSample.a */; };
-		E77F8B052285AF2800158B31 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E77F8B042285AF2800158B31 /* logo.png */; };
-		E77F8B722286006200158B31 /* CDAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77F8B712286006200158B31 /* CDAds.framework */; };
-		E77F8B79228600C500158B31 /* CDAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E77F8B73228600C400158B31 /* CDAdsBundle.bundle */; };
-		E77F8B7A228600C500158B31 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E77F8B74228600C400158B31 /* MRAID.bundle */; };
-		E77F8B7B228600C500158B31 /* cdads.mom in Resources */ = {isa = PBXBuildFile; fileRef = E77F8B76228600C500158B31 /* cdads.mom */; };
-		E77F8B7C228600C500158B31 /* VersionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E77F8B77228600C500158B31 /* VersionInfo.plist */; };
-		E77F8B7D228600C500158B31 /* cdads.omo in Resources */ = {isa = PBXBuildFile; fileRef = E77F8B78228600C500158B31 /* cdads.omo */; };
-		E7A304B722085C6F008382CE /* vpaid.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E7A304B622085C6F008382CE /* vpaid.rtf */; };
+		A180B3CC5E7F66AA91B220A1 /* Pods_CDAdsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6D99205701A782ED25D588 /* Pods_CDAdsSample.framework */; };
 		E7D39612200242A40021EDFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D39611200242A40021EDFB /* AppDelegate.m */; };
 		E7D39615200242A40021EDFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D39614200242A40021EDFB /* ViewController.m */; };
 		E7D39618200242A40021EDFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D39616200242A40021EDFB /* Main.storyboard */; };
@@ -24,18 +16,23 @@
 		E7D39620200242A40021EDFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D3961F200242A40021EDFB /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E74D2EEC2C33260100DFDB72 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		252CE8BE364EA86837BB90CE /* Pods-CDAdsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAdsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDAdsSample/Pods-CDAdsSample.debug.xcconfig"; sourceTree = "<group>"; };
-		53501DC0A59EC9D042E6CD91 /* libPods-CDAdsSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDAdsSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		821420E60F2E036882BC1EC8 /* Pods-CDAdsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAdsSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDAdsSample/Pods-CDAdsSample.release.xcconfig"; sourceTree = "<group>"; };
-		E77F8B042285AF2800158B31 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		E77F8B712286006200158B31 /* CDAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CDAds.framework; sourceTree = "<group>"; };
-		E77F8B73228600C400158B31 /* CDAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CDAdsBundle.bundle; path = CDAds.framework/CDAdsBundle.bundle; sourceTree = "<group>"; };
-		E77F8B74228600C400158B31 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MRAID.bundle; path = CDAds.framework/MRAID.bundle; sourceTree = "<group>"; };
-		E77F8B76228600C500158B31 /* cdads.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cdads.mom; sourceTree = "<group>"; };
-		E77F8B77228600C500158B31 /* VersionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = VersionInfo.plist; sourceTree = "<group>"; };
-		E77F8B78228600C500158B31 /* cdads.omo */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdads.omo; sourceTree = "<group>"; };
-		E7A304B622085C6F008382CE /* vpaid.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = vpaid.rtf; sourceTree = "<group>"; };
+		21F3AE522C945C9F4BF047CF /* Pods-CDAdsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAdsSample.release.xcconfig"; path = "Target Support Files/Pods-CDAdsSample/Pods-CDAdsSample.release.xcconfig"; sourceTree = "<group>"; };
+		2983AE70BD3A07B177C3ED5C /* Pods-CDAdsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAdsSample.debug.xcconfig"; path = "Target Support Files/Pods-CDAdsSample/Pods-CDAdsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		6A6D99205701A782ED25D588 /* Pods_CDAdsSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDAdsSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D3960D200242A40021EDFB /* CDAdsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDAdsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D39610200242A40021EDFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7D39611200242A40021EDFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,8 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77F8B722286006200158B31 /* CDAds.framework in Frameworks */,
-				A0B4FC08AFF2072BB015A8F0 /* libPods-CDAdsSample.a in Frameworks */,
+				A180B3CC5E7F66AA91B220A1 /* Pods_CDAdsSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,42 +60,18 @@
 		734A00B98B101926E371831B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53501DC0A59EC9D042E6CD91 /* libPods-CDAdsSample.a */,
+				6A6D99205701A782ED25D588 /* Pods_CDAdsSample.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C3DBCD8B425FB6EFE4824F5B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				252CE8BE364EA86837BB90CE /* Pods-CDAdsSample.debug.xcconfig */,
-				821420E60F2E036882BC1EC8 /* Pods-CDAdsSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E77F8B75228600C500158B31 /* cdads.momd */ = {
-			isa = PBXGroup;
-			children = (
-				E77F8B76228600C500158B31 /* cdads.mom */,
-				E77F8B77228600C500158B31 /* VersionInfo.plist */,
-				E77F8B78228600C500158B31 /* cdads.omo */,
-			);
-			name = cdads.momd;
-			path = CDAds.framework/cdads.momd;
 			sourceTree = "<group>";
 		};
 		E7D39604200242A40021EDFB = {
 			isa = PBXGroup;
 			children = (
-				E77F8B75228600C500158B31 /* cdads.momd */,
-				E77F8B73228600C400158B31 /* CDAdsBundle.bundle */,
-				E77F8B74228600C400158B31 /* MRAID.bundle */,
-				E77F8B712286006200158B31 /* CDAds.framework */,
-				E7D3960F200242A40021EDFB /* CDAdsExample */,
+				E7D3960F200242A40021EDFB /* CDAdsSample */,
 				E7D3960E200242A40021EDFB /* Products */,
-				C3DBCD8B425FB6EFE4824F5B /* Pods */,
 				734A00B98B101926E371831B /* Frameworks */,
+				F08AD6CF9DA1DF6165AFE75A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,13 +83,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7D3960F200242A40021EDFB /* CDAdsExample */ = {
+		E7D3960F200242A40021EDFB /* CDAdsSample */ = {
 			isa = PBXGroup;
 			children = (
-				E7A304B622085C6F008382CE /* vpaid.rtf */,
 				E7D39610200242A40021EDFB /* AppDelegate.h */,
 				E7D39611200242A40021EDFB /* AppDelegate.m */,
-				E77F8B042285AF2800158B31 /* logo.png */,
 				E7D39613200242A40021EDFB /* ViewController.h */,
 				E7D39614200242A40021EDFB /* ViewController.m */,
 				E7D39616200242A40021EDFB /* Main.storyboard */,
@@ -126,7 +96,16 @@
 				E7D3961E200242A40021EDFB /* Info.plist */,
 				E7D3961F200242A40021EDFB /* main.m */,
 			);
-			path = CDAdsExample;
+			path = CDAdsSample;
+			sourceTree = "<group>";
+		};
+		F08AD6CF9DA1DF6165AFE75A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2983AE70BD3A07B177C3ED5C /* Pods-CDAdsSample.debug.xcconfig */,
+				21F3AE522C945C9F4BF047CF /* Pods-CDAdsSample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,10 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7D39623200242A40021EDFB /* Build configuration list for PBXNativeTarget "CDAdsSample" */;
 			buildPhases = (
-				AF70EFD68AA2441FD8B63575 /* [CP] Check Pods Manifest.lock */,
+				26F5D6787DF0B5CEEB1C7799 /* [CP] Check Pods Manifest.lock */,
 				E7D39609200242A40021EDFB /* Sources */,
 				E7D3960A200242A40021EDFB /* Frameworks */,
 				E7D3960B200242A40021EDFB /* Resources */,
+				E74D2EEC2C33260100DFDB72 /* Embed Frameworks */,
+				D642E5AE34DEBA1E9E8073A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,7 +137,8 @@
 		E7D39605200242A40021EDFB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1540;
 				ORGANIZATIONNAME = "Arun Gupta";
 				TargetAttributes = {
 					E7D3960C200242A40021EDFB = {
@@ -194,37 +176,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D3961D200242A40021EDFB /* LaunchScreen.storyboard in Resources */,
-				E77F8B7D228600C500158B31 /* cdads.omo in Resources */,
-				E77F8B052285AF2800158B31 /* logo.png in Resources */,
 				E7D3961A200242A40021EDFB /* Assets.xcassets in Resources */,
 				E7D39618200242A40021EDFB /* Main.storyboard in Resources */,
-				E7A304B722085C6F008382CE /* vpaid.rtf in Resources */,
-				E77F8B7A228600C500158B31 /* MRAID.bundle in Resources */,
-				E77F8B79228600C500158B31 /* CDAdsBundle.bundle in Resources */,
-				E77F8B7B228600C500158B31 /* cdads.mom in Resources */,
-				E77F8B7C228600C500158B31 /* VersionInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AF70EFD68AA2441FD8B63575 /* [CP] Check Pods Manifest.lock */ = {
+		26F5D6787DF0B5CEEB1C7799 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CDAdsSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D642E5AE34DEBA1E9E8073A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CDAdsSample/Pods-CDAdsSample-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Chalkdigital-Mobile-Ads-SDK/CDAds.framework/CDAds",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDAds.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CDAdsSample/Pods-CDAdsSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -287,6 +284,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -298,6 +296,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -312,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -344,6 +343,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -355,6 +355,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -363,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -372,19 +373,24 @@
 		};
 		E7D39624200242A40021EDFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 252CE8BE364EA86837BB90CE /* Pods-CDAdsSample.debug.xcconfig */;
+			baseConfigurationReference = 2983AE70BD3A07B177C3ED5C /* Pods-CDAdsSample.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CCNC55M6P5;
+				DEVELOPMENT_TEAM = 28PYY935HQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = CDAdsExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = CDAdsSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chalkdigital.ios.CDAdsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRINGS_FILE_OUTPUT_ENCODING = binary;
@@ -394,20 +400,23 @@
 		};
 		E7D39625200242A40021EDFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 821420E60F2E036882BC1EC8 /* Pods-CDAdsSample.release.xcconfig */;
+			baseConfigurationReference = 21F3AE522C945C9F4BF047CF /* Pods-CDAdsSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = CCNC55M6P5;
+				DEVELOPMENT_TEAM = 28PYY935HQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = CDAdsExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = CDAdsSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chalkdigital.ios.CDAdsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRINGS_FILE_OUTPUT_ENCODING = binary;

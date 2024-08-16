@@ -1,11 +1,10 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '13.0'
 
 target 'CDAdsSample' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
 
-  # Pods for CDAdsExample
-  pod 'AFNetworking', '~> 3.0'
-  pod 'FMDB'
+  # Pods for CDAdsSample
+pod 'Chalkdigital-Mobile-Ads-SDK', '~> 3.0.5'
 end
